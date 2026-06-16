@@ -1,0 +1,5 @@
+interface:
+  display_name: "丫丫海风正文配图"
+  short_description: "蓝粉橙白海风角色的中文正文配图资产"
+  brand_color: "#48B0E0"
+  default_prompt: "Use $yaya-surf-illustrations 为这篇中文文章设计并生成 4 张海风冲浪女孩正文配图。"
