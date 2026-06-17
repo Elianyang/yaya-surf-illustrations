@@ -4,34 +4,34 @@
 
 `yaya-surf-illustrations` 是一个 Codex Skill，用来为中文文章、笔记、课程稿、方法论内容生成正文配图。它不是通用头像 prompt，也不是海边海报模板，而是一套可复用的个人品牌视觉资产：用丫丫的蓝发冲浪女孩 IP，把抽象判断、流程、状态和隐喻画成一张张轻盈、清楚、有记忆点的手绘图。
 
-<p align="center">
-  <img src="yaya-surf-illustrations/assets/origin/real-surf-photo.jpg" alt="真实冲浪照" width="42%">
-  <img src="yaya-surf-illustrations/assets/origin/anime-surf-ip.jpg" alt="动漫化冲浪 IP" width="42%">
+## 一眼看懂：从真人照片到品牌正文配图
+
+先看最终效果。这两张不是为了做海报，而是为了证明：同一个个人形象、同一组主题色、同一套隐喻逻辑，可以被稳定地嵌进不同文章里，变成有角色、有动作、有记忆点的正文配图。
+
+<p>
+  <img src="yaya-surf-illustrations/assets/examples/01-fomo-livestream.png" alt="我不是没时间学习，我是怕错过" width="49%">
+  <img src="yaya-surf-illustrations/assets/examples/02-ai-digital-labor.png" alt="AI 终于开始替我干数字苦力了" width="49%">
 </p>
 
-## 从一张自己的照片，长出一套品牌配图系统
+它的起点不是一句 prompt，而是一张真实照片。先把真实照片转成动漫 IP，再提取主题色、角色规则和隐喻系统，最后让 Skill 根据具体文章生成正文图。
 
-这套 Skill 不是凭空捏出来的。
+| 1. 真实照片 | 2. 动漫 IP | 3. 测试图：怕错过 | 4. 测试图：AI 代跑 |
+| --- | --- | --- | --- |
+| <img src="yaya-surf-illustrations/assets/origin/real-surf-photo.jpg" alt="真实冲浪照" width="220"> | <img src="yaya-surf-illustrations/assets/origin/anime-surf-ip.jpg" alt="动漫化冲浪 IP" width="220"> | <img src="yaya-surf-illustrations/assets/examples/01-fomo-livestream.png" alt="我不是没时间学习，我是怕错过" width="260"> | <img src="yaya-surf-illustrations/assets/examples/02-ai-digital-labor.png" alt="AI 终于开始替我干数字苦力了" width="260"> |
+
+完整路径是：
+
+```text
+真实照片 -> 动漫 IP -> 主题色提取 -> 风格边界 -> 隐喻系统 -> 正文配图 Skill -> 真实文章测试
+```
 
 一开始，我先选了一张自己喜欢的真实冲浪照片：蓝天、海边、冲浪服、橙色冲浪板、彩色辫子。这张图里已经有很强的个人识别度。
 
 然后把它转成动漫 IP：保留冲浪女孩、蓝发、橙色冲浪板、海风场景这些关键记忆点，让它从“照片”变成一个可以反复出现在内容里的角色。
 
-接着从动漫图里提取主题色：
-
-- 天空蓝：`#48B0E0` / `#60B8E8`
-- 深海蓝：`#003080` / `#0B2F7A`
-- 冲浪橙：`#E08850` / `#F07A2A`
-- 柔粉：`#F4A7B8` / `#F8C7D2`
-- 云朵白：`#FFFFFF` / `#F8F8F0`
+接着从动漫图里提取主题色：天空蓝、深海蓝、冲浪橙、柔粉、云朵白。
 
 最后，才把这些东西封装进 Codex Skill：角色是谁、颜色怎么用、哪些风格不要、每张图怎么从文字里抓“认知动作”、生成后怎么检查。
-
-所以它不是一组散的 prompt，而是一条完整工作流：
-
-```text
-真实照片 -> 动漫 IP -> 主题色提取 -> 风格边界 -> 隐喻系统 -> 正文配图 Skill
-```
 
 ## 为什么做这个
 
@@ -111,39 +111,57 @@
 - 柔粉：`#F4A7B8` / `#F8C7D2`
 - 云朵白：`#FFFFFF` / `#F8F8F0`
 
-## 用它能画什么
+## 两个真实测试案例
 
-下面两张是测试案例图。它们不是为了做海报，而是为了证明这套 Skill 可以把文章里的抽象判断，变成有角色、有动作、有记忆点的正文配图。
+这两张案例图在前面已经出现过一次，这里再放一次，是为了拆解它们背后的生成逻辑：测试文字是什么，Skill 抓到了什么认知动作，又是怎么把它翻译成画面的。
 
 ### 示例 01：我不是没时间学习，我是怕错过
 
-![我不是没时间学习，我是怕错过](yaya-surf-illustrations/assets/examples/01-fomo-livestream-handdrawn.svg)
+![我不是没时间学习，我是怕错过](yaya-surf-illustrations/assets/examples/01-fomo-livestream.png)
 
 测试文字见：[examples/01-fomo-livestream.md](yaya-surf-illustrations/examples/01-fomo-livestream.md)
 
-这张图的关键不是“学习”，而是“怕错过”。所以配图逻辑是：直播信息像潮水一样从电脑里涌出来，丫丫用橙色冲浪板把潮水慢下来，重新找回“自己的节奏”。
+测试文字讲的是：打开 AI 公开课，本来想认真听、认真记，但直播太多，有的没回放、有的像干货、有的像卖课。你不看怕错过，看了又怕被节奏推着走。
 
-建议画面标签：
+Skill 抓到的不是“学习”，而是这一下认知动作：
 
 ```text
-怕错过 / 直播潮 / 无回放 / 自己的节奏
+不是没时间学习，而是怕错过。
 ```
+
+所以图里没有画一个普通的“认真学习的人”，而是把直播信息画成从电脑里涌出来的蓝色潮水，把公开课卡片画成浪里的浮卡。丫丫不是站着摆拍，而是踩着橙色冲浪板，伸手挡住信息潮，右侧用贝壳代表“自己的节奏”。
+
+生成重点：
+
+- 抽象情绪：怕错过
+- 物理隐喻：直播潮
+- 角色动作：丫丫用冲浪板减速
+- 视觉锚点：无回放、直播中、自己的节奏
+- 品牌规则：蓝粉橙白、单条辫子、底角署名
 
 ### 示例 02：AI 终于开始替我干数字苦力了
 
-![AI 终于开始替我干数字苦力了](yaya-surf-illustrations/assets/examples/02-ai-digital-labor-handdrawn.svg)
+![AI 终于开始替我干数字苦力了](yaya-surf-illustrations/assets/examples/02-ai-digital-labor.png)
 
 测试文字见：[examples/02-ai-digital-labor.md](yaya-surf-illustrations/examples/02-ai-digital-labor.md)
 
-这张图的关键不是“AI 很酷”，而是“把复制、下载、上传、填表这些数字苦力交给 AI 代跑”。所以配图逻辑是：丫丫把任务箱推给 AI 小船，AI 小船沿着水路把字段从表 1 搬到表 2，人只在扫码确认处轻轻介入。
+测试文字讲的是：以前复制粘贴、下载附件、上传填写都默认只能自己干；这次把两个表格链接给 AI，它会看字段、提示扫码、继续操作，把第一个表的信息填进第二个表。
 
-建议画面标签：
+Skill 抓到的不是“AI 很酷”，而是这一下认知动作：
 
 ```text
-数字苦力 / AI代跑 / 扫码确认 / 填进表2
+把重复、繁琐、低判断含量的数字苦力交给 AI 代跑。
 ```
 
-> 说明：仓库首页原来出现过一张临时 SVG 占位示例图，人物比例和完成度都不理想。现在已替换为两张正式示例图，并补上“单马尾/单条辫子”和底角署名规则。
+所以图里没有画一个泛泛的机器人，而是把复制、附件、下载、填表变成一叠“任务箱”。丫丫把任务箱推给 AI 小船，小船沿着水路把字段从表 1 搬到表 2，人类只在“扫码确认”这个节点轻轻介入。
+
+生成重点：
+
+- 抽象判断：数字苦力该交给 AI
+- 物理隐喻：AI 小船代跑
+- 角色动作：丫丫把任务箱交出去
+- 视觉锚点：表 1、表 2、扫码确认、填进表 2
+- 品牌规则：蓝粉橙白、单条辫子、底角署名
 
 ## 如果你也想做自己的个人品牌配图 Skill
 
@@ -244,8 +262,8 @@ yaya-surf-illustrations/
 │   │   ├── anime-surf-ip.jpg
 │   │   └── real-surf-photo.jpg
 │   └── examples/
-│       ├── 01-fomo-livestream-handdrawn.svg
-│       ├── 02-ai-digital-labor-handdrawn.svg
+│       ├── 01-fomo-livestream.png
+│       ├── 02-ai-digital-labor.png
 │       └── README.md
 ├── examples/
 │   ├── 01-fomo-livestream.md

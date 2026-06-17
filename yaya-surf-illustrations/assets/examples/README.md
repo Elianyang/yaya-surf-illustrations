@@ -2,8 +2,8 @@
 
 这里放 GitHub 首页展示用的示例图。
 
-- `01-fomo-livestream-handdrawn.svg`：我不是没时间学习，我是怕错过。
-- `02-ai-digital-labor-handdrawn.svg`：AI 终于开始替我干数字苦力了。
+- `01-fomo-livestream.png`：我不是没时间学习，我是怕错过。
+- `02-ai-digital-labor.png`：AI 终于开始替我干数字苦力了。
 
 示例图需要遵守两个角色细节：
 
