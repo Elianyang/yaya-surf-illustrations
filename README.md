@@ -86,6 +86,8 @@
 
 ### 示例 01：我不是没时间学习，我是怕错过
 
+![我不是没时间学习，我是怕错过](yaya-surf-illustrations/assets/examples/01-fomo-livestream-handdrawn.svg)
+
 测试文字见：[examples/01-fomo-livestream.md](yaya-surf-illustrations/examples/01-fomo-livestream.md)
 
 这张图的关键不是“学习”，而是“怕错过”。所以配图逻辑是：直播信息像潮水一样从电脑里涌出来，丫丫用橙色冲浪板把潮水慢下来，重新找回“自己的节奏”。
@@ -98,6 +100,8 @@
 
 ### 示例 02：AI 终于开始替我干数字苦力了
 
+![AI 终于开始替我干数字苦力了](yaya-surf-illustrations/assets/examples/02-ai-digital-labor-handdrawn.svg)
+
 测试文字见：[examples/02-ai-digital-labor.md](yaya-surf-illustrations/examples/02-ai-digital-labor.md)
 
 这张图的关键不是“AI 很酷”，而是“把复制、下载、上传、填表这些数字苦力交给 AI 代跑”。所以配图逻辑是：丫丫把任务箱推给 AI 小船，AI 小船沿着水路把字段从表 1 搬到表 2，人只在扫码确认处轻轻介入。
@@ -108,7 +112,7 @@
 数字苦力 / AI代跑 / 扫码确认 / 填进表2
 ```
 
-> 说明：仓库首页原来出现过一张 SVG 占位示例图。那张图只是为了临时表达构图逻辑，不是正式生成图，所以看起来比较怪，已经从 README 主视觉里撤下。正式图片建议使用生成后的 PNG 放到 `yaya-surf-illustrations/assets/examples/`。
+> 说明：仓库首页原来出现过一张临时 SVG 占位示例图，人物比例和完成度都不理想。现在已替换为两张正式示例图，并补上“单马尾/单条辫子”和底角署名规则。
 
 ## 如果你也想做自己的个人品牌配图 Skill
 
@@ -200,6 +204,8 @@ yaya-surf-illustrations/
 ├── assets/
 │   ├── character-reference.png
 │   └── examples/
+│       ├── 01-fomo-livestream-handdrawn.svg
+│       ├── 02-ai-digital-labor-handdrawn.svg
 │       └── README.md
 ├── examples/
 │   ├── 01-fomo-livestream.md

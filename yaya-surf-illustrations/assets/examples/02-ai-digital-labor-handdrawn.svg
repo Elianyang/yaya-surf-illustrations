@@ -1,0 +1,89 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <style>
+    .ink{stroke:#0B2F7A;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#0B2F7A;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+    .blue{stroke:#48B0E0}
+    .orange{stroke:#F07A2A}
+    .label{font-family:"Kaiti SC","STKaiti","KaiTi","Hiragino Sans GB",sans-serif;font-size:25px;fill:#0B2F7A}
+    .note{font-family:"Kaiti SC","STKaiti","KaiTi","Hiragino Sans GB",sans-serif;font-size:22px;fill:#F07A2A}
+    .credit{font-family:"Kaiti SC","STKaiti","KaiTi","Hiragino Sans GB",sans-serif;font-size:22px;fill:#0B2F7A}
+  </style>
+
+  <path d="M80 502c116-69 245-89 388-60 168 35 329 0 482-104" class="thin blue"/>
+  <path d="M70 540c136-60 273-71 411-34 167 45 326 17 478-83" class="thin blue"/>
+  <path d="M406 456c84-75 188-103 311-80 89 17 165 7 228-31-46 70-111 113-195 129-91 18-194 7-307 49" fill="#60B8E8" fill-opacity=".22"/>
+
+  <path d="M152 494c58-103 151-159 281-171-56 102-149 159-281 171z" fill="#F07A2A" stroke="#0B2F7A" stroke-width="4"/>
+  <path d="M193 472c52-57 113-94 184-112" class="thin" stroke="#FFFFFF"/>
+
+  <path d="M210 241c-5-47 29-86 80-88 52-2 88 32 88 79 0 47-36 82-84 82-45 0-80-29-84-73z" fill="#F0DCC8" stroke="#0B2F7A" stroke-width="4"/>
+  <path d="M205 218c18-47 58-78 105-72 38 5 66 30 74 68-42-24-96-26-160-4" fill="#48B0E0" stroke="#0B2F7A" stroke-width="4"/>
+  <path d="M374 235c42 7 82 26 119 57 15 12 17 34 5 49-12 15-35 18-50 4-25-23-54-40-86-49" fill="none" stroke="#0B2F7A" stroke-width="4"/>
+  <path d="M300 304c42 23 63 65 63 126l-137 3c0-64 25-107 74-129z" fill="#0B2F7A" stroke="#0B2F7A" stroke-width="4"/>
+  <path d="M258 322c22 16 47 22 75 18" class="thin" stroke="#FFFFFF"/>
+  <path d="M258 433c-19 29-29 61-28 96" class="ink"/>
+  <path d="M337 431c25 25 43 58 53 99" class="ink"/>
+  <path d="M226 532c22 7 42 4 61-8M378 531c21 4 40 1 58-11" class="thin"/>
+
+  <path d="M320 316c25 19 55 28 87 25 38-3 66 16 75 50 6 27-3 55-25 82" fill="none" stroke="#0B2F7A" stroke-width="7"/>
+  <path d="M430 372c24 8 39 25 42 50" class="thin orange"/>
+  <path d="M423 402c22 7 37 22 42 44" class="thin orange"/>
+  <path d="M262 237c8-7 18-7 27 0M313 238c8-6 17-6 25 0" class="thin"/>
+  <circle cx="280" cy="255" r="5" fill="#0B2F7A"/>
+  <circle cx="325" cy="255" r="5" fill="#0B2F7A"/>
+  <path d="M289 279c18 10 35 8 51-6" class="thin orange"/>
+  <circle cx="254" cy="271" r="9" fill="#F4A7B8" fill-opacity=".75"/>
+  <circle cx="348" cy="269" r="8" fill="#F4A7B8" fill-opacity=".75"/>
+
+  <g transform="rotate(-7 492 368)">
+    <rect x="435" y="336" width="112" height="64" rx="12" fill="#FFFFFF" stroke="#0B2F7A" stroke-width="3"/>
+    <path d="M466 359h49M466 378h31" class="thin blue"/>
+    <path d="M451 353h12v12h-12z" fill="#F07A2A"/>
+  </g>
+  <g transform="rotate(8 516 443)">
+    <rect x="459" y="411" width="116" height="64" rx="12" fill="#FFFFFF" stroke="#0B2F7A" stroke-width="3"/>
+    <path d="M489 434h50M489 453h31" class="thin blue"/>
+    <path d="M475 431l13-8v16l-13-8z" fill="#F07A2A"/>
+  </g>
+  <g transform="rotate(-3 389 405)">
+    <rect x="333" y="374" width="108" height="62" rx="12" fill="#FFFFFF" stroke="#0B2F7A" stroke-width="3"/>
+    <path d="M363 397h46M363 416h28" class="thin blue"/>
+    <path d="M350 397c12-12 25-12 37 0" class="thin orange"/>
+  </g>
+  <text x="372" y="321" class="label">数字苦力</text>
+  <text x="445" y="501" class="note">复制粘贴</text>
+  <text x="323" y="458" class="note">附件</text>
+
+  <path d="M570 399c35-34 90-40 138-15 39 20 57 57 46 91-78 25-148 18-210-22 0-20 9-38 26-54z" fill="#EAF7FD" stroke="#0B2F7A" stroke-width="4"/>
+  <path d="M586 435c37 21 85 28 145 20" class="thin blue"/>
+  <path d="M625 380c14-30 36-48 66-54" class="thin orange"/>
+  <circle cx="678" cy="421" r="23" fill="#F07A2A" fill-opacity=".9" stroke="#0B2F7A" stroke-width="3"/>
+  <text x="601" y="489" class="label">AI代跑</text>
+
+  <path d="M760 420c41-31 88-45 141-42" class="thin orange"/>
+  <path d="M891 365l40 17-39 19c9-13 9-24-1-36z" fill="#F07A2A"/>
+
+  <rect x="895" y="228" width="140" height="118" rx="14" fill="#FFFFFF" stroke="#48B0E0" stroke-width="4"/>
+  <text x="933" y="213" class="label">表1</text>
+  <path d="M922 263h85M922 291h85M922 319h85M950 243v95M979 243v95" class="thin blue"/>
+  <rect x="945" y="281" width="33" height="23" rx="5" fill="#F07A2A" fill-opacity=".8"/>
+
+  <rect x="990" y="412" width="145" height="122" rx="14" fill="#FFFFFF" stroke="#48B0E0" stroke-width="4"/>
+  <text x="1031" y="397" class="label">表2</text>
+  <path d="M1019 448h86M1019 477h86M1019 506h86M1048 430v92M1079 430v92" class="thin blue"/>
+  <rect x="1075" y="466" width="34" height="25" rx="5" fill="#F07A2A" fill-opacity=".8"/>
+  <text x="1013" y="560" class="note">填进表2</text>
+
+  <g transform="translate(795 296)">
+    <rect x="0" y="0" width="72" height="72" rx="12" fill="#FFFFFF" stroke="#0B2F7A" stroke-width="3"/>
+    <rect x="15" y="15" width="12" height="12" fill="#0B2F7A"/>
+    <rect x="45" y="15" width="12" height="12" fill="#0B2F7A"/>
+    <rect x="15" y="45" width="12" height="12" fill="#0B2F7A"/>
+    <path d="M35 18h5M35 35h22M35 52h8M52 43h6" class="thin"/>
+  </g>
+  <text x="778" y="389" class="note">扫码确认</text>
+
+  <path d="M538 260c-10 24-2 45 24 63M563 257c9 24 27 38 55 41M569 235c24 6 44 20 60 42" class="thin" stroke="#F4A7B8"/>
+  <text x="796" y="642" class="credit">Co-Created with 丫丫老师AI研习社</text>
+</svg>

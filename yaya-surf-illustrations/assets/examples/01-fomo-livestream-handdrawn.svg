@@ -1,0 +1,83 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" rx="0" fill="#FFFFFF"/>
+  <style>
+    .ink{stroke:#0B2F7A;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#0B2F7A;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+    .blue{stroke:#48B0E0}
+    .orange{stroke:#F07A2A}
+    .pink{stroke:#F4A7B8}
+    .label{font-family:"Kaiti SC","STKaiti","KaiTi","Hiragino Sans GB",sans-serif;font-size:25px;fill:#0B2F7A}
+    .note{font-family:"Kaiti SC","STKaiti","KaiTi","Hiragino Sans GB",sans-serif;font-size:23px;fill:#F07A2A}
+    .credit{font-family:"Kaiti SC","STKaiti","KaiTi","Hiragino Sans GB",sans-serif;font-size:22px;fill:#0B2F7A}
+  </style>
+
+  <path d="M86 112c-15 12-19 35-7 50 9 11 23 17 37 15-10 12-28 15-44 6-22-12-30-39-18-61 6-11 17-18 32-22z" fill="#F8DFA0"/>
+  <path d="M68 183c18-12 43-9 57 8 15-10 35-6 46 9" class="thin" stroke="#C8D8E0"/>
+  <path d="M72 205h111" class="thin" stroke="#C8D8E0"/>
+
+  <path d="M89 502h278" class="ink"/>
+  <path d="M123 374h204c14 0 25 11 25 25v94H98v-94c0-14 11-25 25-25z" fill="#EAF7FD" stroke="#0B2F7A" stroke-width="4"/>
+  <path d="M123 401h203v61H123z" fill="#60B8E8" fill-opacity=".18" stroke="#0B2F7A" stroke-width="2.5"/>
+  <path d="M148 434c29-24 66-22 93 2 18 16 36 18 55 6" class="thin blue"/>
+  <path d="M97 493h255l35 38H66l31-38z" fill="#F8F8F0" stroke="#0B2F7A" stroke-width="4"/>
+  <path d="M127 541h228" class="thin"/>
+  <text x="120" y="351" class="label" fill="#F4A7B8">怕错过</text>
+
+  <path d="M333 391c73-74 183-100 313-69 76 18 142 4 205-36-31 75-95 125-190 153-101 30-203 26-315 80 36-44 19-80-13-128z" fill="#60B8E8" fill-opacity=".32"/>
+  <path d="M339 392c83-66 178-78 286-53 80 18 150 3 218-45" class="ink blue"/>
+  <path d="M347 518c84-55 186-56 312-73 88-12 151-48 196-110" class="thin blue"/>
+  <path d="M403 444c53 25 106 22 158-8 49-28 97-33 143-15" class="thin blue"/>
+  <text x="416" y="292" class="label">直播潮</text>
+
+  <g transform="rotate(-7 535 330)">
+    <rect x="452" y="282" width="166" height="68" rx="12" fill="#FFFFFF" stroke="#48B0E0" stroke-width="4"/>
+    <path d="M484 319l20-12v24l-20-12z" fill="#F07A2A"/>
+    <path d="M531 306h55M531 329h38" class="thin blue"/>
+    <rect x="469" y="291" width="58" height="20" rx="6" fill="#F07A2A" fill-opacity=".9"/>
+  </g>
+  <g transform="rotate(6 606 397)">
+    <rect x="525" y="361" width="168" height="72" rx="12" fill="#FFFFFF" stroke="#48B0E0" stroke-width="4"/>
+    <path d="M558 402l20-12v24l-20-12z" fill="#0B2F7A"/>
+    <path d="M603 385h60M603 409h40" class="thin blue"/>
+    <text x="543" y="354" class="note">无回放</text>
+  </g>
+  <g transform="rotate(-5 443 441)">
+    <rect x="387" y="414" width="130" height="58" rx="11" fill="#FFFFFF" stroke="#48B0E0" stroke-width="3"/>
+    <path d="M416 443l16-9v18l-16-9z" fill="#F07A2A"/>
+    <path d="M451 433h38M451 454h28" class="thin blue"/>
+  </g>
+
+  <path d="M699 520c76-118 198-177 360-181-76 101-192 161-360 181z" fill="#F07A2A" stroke="#0B2F7A" stroke-width="4"/>
+  <path d="M742 500c77-73 156-114 251-134" class="thin" stroke="#FFFFFF"/>
+
+  <path d="M842 259c-4-47 30-86 82-88 51-2 87 32 87 79 0 47-36 82-83 82-45 0-82-29-86-73z" fill="#F0DCC8" stroke="#0B2F7A" stroke-width="4"/>
+  <path d="M836 235c18-47 57-78 104-72 38 4 66 30 74 67-40-23-93-25-159-4" fill="#48B0E0" stroke="#0B2F7A" stroke-width="4"/>
+  <path d="M1008 253c45 10 88 36 126 77 13 14 11 36-4 48-15 12-37 10-49-6-28-36-58-58-91-68" fill="none" stroke="#0B2F7A" stroke-width="4"/>
+  <path d="M1032 313c35 8 63 25 86 53" class="thin orange"/>
+  <path d="M1054 333c24 3 44 15 60 36" class="thin orange"/>
+  <path d="M904 322c-47 22-82 59-105 112" class="ink"/>
+  <path d="M801 433c-13 18-34 25-62 22" class="ink"/>
+  <path d="M913 316c41 20 63 62 66 126l-139 3c-1-66 24-109 73-129z" fill="#0B2F7A" stroke="#0B2F7A" stroke-width="4"/>
+  <path d="M872 333c22 16 47 22 76 18" class="thin" stroke="#FFFFFF"/>
+  <path d="M871 445c-20 28-30 60-29 96" class="ink"/>
+  <path d="M954 443c25 24 43 56 54 96" class="ink"/>
+  <path d="M839 541c22 8 43 5 61-8M996 542c20 4 39 0 57-12" class="thin"/>
+
+  <path d="M933 329c25 19 54 28 86 26 40-2 65 18 73 54 6 28-3 57-25 86" fill="none" stroke="#0B2F7A" stroke-width="7"/>
+  <path d="M1048 390c22 8 35 25 38 51" class="thin orange"/>
+  <path d="M1040 422c22 6 35 21 40 44" class="thin orange"/>
+
+  <path d="M896 254c8-7 18-7 27 0M947 255c8-6 17-6 25 0" class="thin"/>
+  <circle cx="915" cy="272" r="5" fill="#0B2F7A"/>
+  <circle cx="960" cy="272" r="5" fill="#0B2F7A"/>
+  <path d="M924 296c18 10 35 8 51-6" class="thin orange"/>
+  <circle cx="889" cy="288" r="9" fill="#F4A7B8" fill-opacity=".75"/>
+  <circle cx="984" cy="286" r="8" fill="#F4A7B8" fill-opacity=".75"/>
+
+  <path d="M1039 484c30-30 79-22 94 19 12 31-9 66-43 72-34 6-65-16-68-49-1-17 5-31 17-42z" fill="#F8F8F0" stroke="#F07A2A" stroke-width="4"/>
+  <path d="M1063 558c8-28 14-51 19-72M1088 561c0-30 0-55 1-76M1111 552c-7-23-14-44-21-66" class="thin orange"/>
+  <text x="995" y="620" class="note">自己的节奏</text>
+
+  <path d="M115 306c7-12 19-12 26 0 7-12 19-12 25 0 0 20-25 34-25 34s-26-14-26-34z" fill="#F4A7B8" fill-opacity=".75"/>
+  <text x="802" y="642" class="credit">Co-Created with 丫丫老师AI研习社</text>
+</svg>
