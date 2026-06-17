@@ -12,7 +12,7 @@ Scene:
 [one simple ocean/surf metaphor: wave path, surfboard bridge, tide sorting, lighthouse checkpoint, underwater insight, before/after shore, floating workshop, or mini comic]
 
 Character:
-Yaya, a friendly capable surfer girl with vivid blue hair, a long braid with orange accents, expressive eyes, warm cheeks, a navy/deep-blue wetsuit with white panels, and an orange surfboard. She must perform the central action of the metaphor, not just pose.
+Yaya, a friendly capable surfer girl with vivid blue hair gathered into one ponytail/braid, orange braided accents, expressive eyes, warm cheeks, a navy/deep-blue wetsuit with white panels, and an orange surfboard. The hairstyle must read as one ponytail/braid, never twin ponytails or double braids. She must perform the central action of the metaphor, not just pose.
 
 Action:
 [what Yaya does physically]
@@ -26,8 +26,11 @@ clean cloud-white background, sky blue #48B0E0 / #60B8E8, deep ocean blue #00308
 Chinese annotations:
 [2-6 short handwritten-style Chinese labels, each 2-8 characters]
 
+Credit:
+Add a small unobtrusive handwritten credit in the bottom corner: `Co-Created with 丫丫老师AI研习社`. It should feel cute and hand-drawn, but it must not compete with the main image.
+
 Style constraints:
-hand-drawn pencil/ink linework, simple flat color fills, light sketch texture, bright, clean, airy, friendly, explanatory, slightly whimsical, generous whitespace, not an oil painting, not a glossy 3D render, not a beach poster, not a PPT infographic, not a dense flowchart, not a pure portrait, no long paragraphs, no fake logos, no malformed English text.
+hand-drawn pencil/ink linework, simple flat color fills, light sketch texture, bright, clean, airy, friendly, explanatory, slightly whimsical, generous whitespace, one ponytail/braid only, small bottom-corner credit, not an oil painting, not a glossy 3D render, not a beach poster, not a PPT infographic, not a dense flowchart, not a pure portrait, no long paragraphs, no fake logos, no malformed English text.
 ```
 
 ## Text Guidance

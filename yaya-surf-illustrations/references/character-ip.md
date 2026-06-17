@@ -12,12 +12,14 @@ Core features:
 
 - young woman, friendly and energetic
 - vivid blue hair
-- long braid or braided sections with orange accents
+- one ponytail/braid only, with orange braided accents
+- the hairstyle should read as a single gathered ponytail/braid, not twin ponytails, double braids, or two side tails
 - expressive large eyes, gentle smile, warm cheeks
 - navy/deep-blue wetsuit with white panels
 - orange surfboard as a signature object
 - blue/pink/orange/white palette
 - bright seaside, sky, cloud, water, or clean white-space environment
+- a small bottom-corner handwritten credit: `Co-Created with 丫丫老师AI研习社`
 
 The exact lettering on the wetsuit is not important and should not be copied. Avoid generating unreadable brand text on clothing unless the user provides a real logo.
 
@@ -73,8 +75,9 @@ Use only 1-3 per image:
 - complex costumes or unrelated accessories
 - giving the character random logos or malformed English text
 - losing the blue hair and orange surfboard identity
+- drawing two ponytails, twin braids, or two symmetric side tails
+- omitting the bottom-corner credit when generating final artwork
 
 ## Character Test
 
 If removing Yaya from the image leaves the idea fully intact, rewrite the prompt. The character should be necessary to the visual metaphor.
-

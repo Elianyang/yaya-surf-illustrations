@@ -5,10 +5,12 @@ Before delivering or accepting a generated image, check:
 ## Character
 
 - Does Yaya have vivid blue hair?
-- Is there a braid or orange hair accent when visible?
+- Does the hair read as one ponytail/braid, not twin ponytails or double braids?
+- Is there an orange braid accent when visible?
 - Is the outfit navy/deep blue with white panels?
 - Is the orange surfboard or another signature orange action object present?
 - Is she doing the core action rather than posing?
+- Is there a small bottom-corner handwritten credit: `Co-Created with 丫丫老师AI研习社`?
 
 ## Brand Color
 
@@ -39,6 +41,8 @@ Before delivering or accepting a generated image, check:
 - It becomes oil-painted, glossy, or 3D-rendered.
 - It becomes a dense PPT diagram.
 - The character identity is lost.
+- The hairstyle becomes two ponytails, twin braids, or two side tails.
+- The bottom-corner credit is missing.
 - Text is too long or heavily misspelled.
 - The palette becomes beige-only, orange-only, or generic pastel.
 - Yaya is decorative instead of functionally necessary.

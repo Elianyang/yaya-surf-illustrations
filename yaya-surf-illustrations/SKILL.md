@@ -57,9 +57,11 @@ Each image should include:
 - 16:9 horizontal Chinese body illustration
 - clean white or white-with-airy-sky hand-drawn background
 - Yaya surfer girl as the action subject
+- vivid blue hair gathered into one ponytail/braid, with orange braided accents; never two ponytails
 - blue/pink/orange/white palette with deep navy for structure
 - loose pencil/ink linework with simple flat color fills
 - short handwritten-style Chinese annotations
+- a small bottom-corner handwritten credit: `Co-Created with 丫丫老师AI研习社`
 - one clear metaphor or state change
 - generous whitespace
 
@@ -76,7 +78,8 @@ After generation, use `references/qa-checklist.md`. Regenerate or edit if:
 - it looks like a PPT diagram
 - there are too many labels or long Chinese text
 - the palette drifts away from blue/pink/orange/white
-- the character loses blue hair, orange surfboard, or friendly surfer identity
+- the character loses blue hair, single ponytail/braid, orange surfboard, or friendly surfer identity
+- the image omits the bottom-corner credit
 
 ### 5. Save Deliverables
 

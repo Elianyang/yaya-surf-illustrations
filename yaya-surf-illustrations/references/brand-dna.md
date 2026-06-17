@@ -57,6 +57,7 @@ Keep the palette fresh and bright. Use orange as the energetic accent, not as a 
 - Main subject occupies about 40%-60% of the frame.
 - 25%-40% visible whitespace.
 - Short Chinese annotations, preferably 2-8 characters each.
+- A small bottom-corner handwritten credit: `Co-Created with 丫丫老师AI研习社`.
 - Visual metaphor must be understandable without a long caption.
 
 ## Avoid
@@ -74,3 +75,4 @@ Keep the palette fresh and bright. Use orange as the energetic accent, not as a 
 - beige-only or orange-only palette
 - complex UI screenshot
 - long Chinese paragraphs inside the image
+- missing the bottom-corner credit
