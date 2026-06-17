@@ -3,7 +3,7 @@
 Use this template for one image at a time. Replace bracketed sections.
 
 ```text
-Create a 16:9 horizontal Chinese article illustration in Yaya's ocean-surf brand style.
+Create a 16:9 horizontal Chinese article illustration in Yaya's hand-drawn ocean-surf brand style.
 
 Core idea:
 [one sentence describing the cognitive point]
@@ -27,7 +27,7 @@ Chinese annotations:
 [2-6 short handwritten-style Chinese labels, each 2-8 characters]
 
 Style constraints:
-bright, clean, airy, friendly, explanatory, slightly whimsical, generous whitespace, not a beach poster, not a PPT infographic, not a dense flowchart, not a pure portrait, no long paragraphs, no fake logos, no malformed English text.
+hand-drawn pencil/ink linework, simple flat color fills, light sketch texture, bright, clean, airy, friendly, explanatory, slightly whimsical, generous whitespace, not an oil painting, not a glossy 3D render, not a beach poster, not a PPT infographic, not a dense flowchart, not a pure portrait, no long paragraphs, no fake logos, no malformed English text.
 ```
 
 ## Text Guidance
@@ -44,4 +44,3 @@ Use fewer Chinese labels when image fidelity matters. Prefer labels like:
 - 主航道
 - 噪音
 - 抵达
-

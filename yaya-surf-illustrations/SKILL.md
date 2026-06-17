@@ -9,7 +9,7 @@ description: Generate and plan Chinese article illustrations in Yaya's ocean-sur
 
 Create 16:9 Chinese body illustrations that preserve the useful logic of Ian-style cognitive metaphor images while replacing the visual IP with Yaya's bright ocean-surf character system.
 
-The goal is not a beach poster, cute mascot sticker, PPT infographic, or generic 3D avatar. The goal is to turn a key judgment, process, state, or metaphor from Chinese content into a clean, memorable, brand-consistent illustration where the blue-haired surfer girl is doing the core cognitive action.
+The goal is not an oil painting, glossy 3D render, beach poster, cute mascot sticker, PPT infographic, or generic avatar. The goal is to turn a key judgment, process, state, or metaphor from Chinese content into a clean, hand-drawn, brand-consistent illustration where the blue-haired surfer girl is doing the core cognitive action.
 
 ## Read As Needed
 
@@ -55,9 +55,10 @@ If the user asks to generate or make images, call `image_gen` for each image sep
 Each image should include:
 
 - 16:9 horizontal Chinese body illustration
-- clean white or white-with-airy-sky background
+- clean white or white-with-airy-sky hand-drawn background
 - Yaya surfer girl as the action subject
 - blue/pink/orange/white palette with deep navy for structure
+- loose pencil/ink linework with simple flat color fills
 - short handwritten-style Chinese annotations
 - one clear metaphor or state change
 - generous whitespace
@@ -70,6 +71,7 @@ After generation, use `references/qa-checklist.md`. Regenerate or edit if:
 
 - Yaya is only posing or decorating
 - the image becomes a generic beach portrait
+- the image becomes oil-painted, glossy, or 3D-rendered
 - the cognitive structure is unclear
 - it looks like a PPT diagram
 - there are too many labels or long Chinese text
@@ -101,4 +103,3 @@ For plans, be concise and practical. For generated images, report:
 - what each image is for
 - save paths
 - which images are strongest and which are optional
-

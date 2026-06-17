@@ -2,7 +2,7 @@
 
 ## One Sentence
 
-Bright ocean air, friendly momentum, blue-haired surfer girl IP, clean white space, blue/pink/orange/white brand color, optimistic but not childish, explanatory but not PPT-like.
+Bright ocean air, friendly momentum, blue-haired surfer girl IP, clean white space, blue/pink/orange/white brand color, hand-drawn linework, optimistic but not childish, explanatory but not PPT-like.
 
 ## Visual Position
 
@@ -52,9 +52,10 @@ Keep the palette fresh and bright. Use orange as the energetic accent, not as a 
 
 - 16:9 horizontal article illustration unless the user requests otherwise.
 - Clean white or airy white-sky background.
+- Hand-drawn pencil/ink linework with slight organic imperfection.
+- Simple flat color fills; colors should feel printed or marker-like, not painterly.
 - Main subject occupies about 40%-60% of the frame.
 - 25%-40% visible whitespace.
-- Soft 3D clay/avatar feel is allowed, but simplify the scene into an explanatory illustration.
 - Short Chinese annotations, preferably 2-8 characters each.
 - Visual metaphor must be understandable without a long caption.
 
@@ -62,6 +63,9 @@ Keep the palette fresh and bright. Use orange as the energetic accent, not as a 
 
 - generic beach poster
 - influencer portrait with no conceptual structure
+- oil painting texture
+- glossy 3D render
+- clay/avatar toy look
 - dense PPT infographic
 - corporate process diagram
 - childish sticker pack
@@ -70,4 +74,3 @@ Keep the palette fresh and bright. Use orange as the energetic accent, not as a 
 - beige-only or orange-only palette
 - complex UI screenshot
 - long Chinese paragraphs inside the image
-
