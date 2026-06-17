@@ -1,61 +1,145 @@
-# Yaya Surf Illustrations
+# 丫丫海风手绘正文配图 Skill
 
-> Blue/pink/orange/white ocean-surf illustration skill for Chinese article visuals.
+> 把中文文章里的“认知动作”，画成蓝粉橙白、白底手绘、海风感的正文配图。
 
-`yaya-surf-illustrations` is a Codex skill for turning Chinese articles, notes, and methods into bright, ocean-themed body illustrations using Yaya's surfer girl brand IP.
+`yaya-surf-illustrations` 是一个 Codex Skill，用来为中文文章、笔记、课程稿、方法论内容生成正文配图。它不是通用头像 prompt，也不是海边海报模板，而是一套可复用的个人品牌视觉资产：用丫丫的蓝发冲浪女孩 IP，把抽象判断、流程、状态和隐喻画成一张张轻盈、清楚、有记忆点的手绘图。
 
-It keeps the useful illustration logic of "one cognitive action per image": first understand the article's key judgment, state change, workflow, or metaphor, then turn that idea into a clean 16:9 visual.
+![示例：我不是没时间学习，我是怕错过](yaya-surf-illustrations/assets/examples/01-fomo-livestream-handdrawn.svg)
 
-## Visual Identity
+## 这套图在解决什么问题
 
-- Blue-haired surfer girl IP
-- Orange surfboard as the signature action object
-- Deep-blue wetsuit with white panels
-- Bright sky, cloud, wave, and white-space atmosphere
-- Blue / pink / orange / white theme colors
-- Short handwritten-style Chinese annotations
+很多内容不是缺“好看配图”，而是缺一个能帮读者停下来理解的视觉锚点。
 
-Theme color anchors:
+这套 Skill 的目标是：
 
-- Sky blue: `#48B0E0` / `#60B8E8`
-- Deep ocean blue: `#003080` / `#0B2F7A`
-- Surf orange: `#E08850` / `#F07A2A`
-- Soft pink: `#F4A7B8` / `#F8C7D2`
-- Cloud white: `#FFFFFF` / `#F8F8F0`
+- 先读懂文章真正想讲的认知转折。
+- 找出最适合画出来的关键动作。
+- 用一个低复杂度的海风隐喻承载它。
+- 让丫丫这个角色参与核心动作，而不是站在旁边当装饰。
+- 最终生成一张适合放在正文中的 16:9 手绘插图。
 
-## Install
+## 整个逻辑
 
-Copy the skill folder into your Codex skills directory:
+### 1. 先找“认知动作”
+
+每张图只画一个核心动作，不平均给每段都配图。
+
+常见的认知动作包括：
+
+- 从混乱到清楚
+- 从被节奏推着走到拿回自己的节奏
+- 从信息噪音里捞出真问题
+- 从分散素材走向一个承接路径
+- 从焦虑选择变成可判断的筛选
+- 从抽象信任变成一块块证据
+
+示例里这句话的核心动作是：
+
+```text
+我不是没时间学习，我是怕错过。
+```
+
+所以图里没有画“认真学习的人”，而是把“怕错过”画成一股直播信息潮，再让丫丫用冲浪板把潮水慢下来，找回“自己的节奏”。
+
+### 2. 再换成海风隐喻
+
+抽象概念会被翻译成可以画出来的海边动作：
+
+- 信息过载：直播潮、浪、浮卡片
+- 承接路径：冲浪板桥、岸线、绳索
+- 筛选判断：潮水分流、贝壳分类、浮标
+- 深度理解：潜入水下捞出真正的问题
+- 质量检查：灯塔、浮标、潮汐线
+- 拿回节奏：贝壳、浮标、稳定的板面
+
+这样图会有解释力，但不会变成 PPT 流程图。
+
+### 3. 角色必须参与核心动作
+
+丫丫不是贴纸，也不是头像。她必须承担画面的关键动作：
+
+- 用冲浪板挡住信息潮
+- 把散落的想法捞回来
+- 在两座岛之间架起冲浪板桥
+- 沿着浪线标出路线
+- 从水下带回一个真问题
+- 把证据贝壳一颗颗铺成路径
+
+判断标准很简单：如果把丫丫删掉，图仍然完全成立，说明角色太装饰，需要重画。
+
+### 4. 保持固定品牌资产
+
+视觉资产保持稳定，方便长期积累识别度：
+
+- 蓝发冲浪女孩 IP
+- 橙色冲浪板
+- 深蓝白色冲浪服
+- 白底、留白、轻手绘线条
+- 蓝 / 粉 / 橙 / 白主题色
+- 少量中文手写批注
+
+主题色：
+
+- 天空蓝：`#48B0E0` / `#60B8E8`
+- 深海蓝：`#003080` / `#0B2F7A`
+- 冲浪橙：`#E08850` / `#F07A2A`
+- 柔粉：`#F4A7B8` / `#F8C7D2`
+- 云朵白：`#FFFFFF` / `#F8F8F0`
+
+## 风格边界
+
+要：
+
+- 白底手绘
+- 轻线条
+- 平涂色块
+- 大量留白
+- 解释一个认知动作
+- 中文标注短而少
+
+不要：
+
+- 油画质感
+- glossy 3D
+- 玩偶/粘土 avatar 感
+- 海边写真海报
+- 密密麻麻的 PPT 信息图
+- 大段中文解释塞进图里
+- 角色只是摆拍
+
+## 安装
+
+把 skill 文件夹复制到 Codex skills 目录：
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 cp -R ./yaya-surf-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-Restart Codex after installation.
+安装后重启 Codex。
 
-## Usage
+## 使用方式
 
-Plan article illustrations:
+只做配图规划：
 
 ```text
 Use $yaya-surf-illustrations 先不要生图。
 请为下面这篇中文文章设计 5 张正文配图 shot list。
 ```
 
-Generate illustrations:
+直接生成配图：
 
 ```text
-Use $yaya-surf-illustrations 为这篇中文文章设计并生成 4 张海风冲浪女孩正文配图。
+Use $yaya-surf-illustrations 为这篇中文文章设计并生成 4 张海风手绘正文配图。
 ```
 
-Single concept image:
+单个概念出图：
 
 ```text
 Use $yaya-surf-illustrations 为“我不是没时间学习，我是怕错过”生成一张正文配图。
 ```
 
-## Structure
+## 目录结构
 
 ```text
 yaya-surf-illustrations/
@@ -63,7 +147,9 @@ yaya-surf-illustrations/
 ├── agents/
 │   └── openai.yaml
 ├── assets/
-│   └── character-reference.png
+│   ├── character-reference.png
+│   └── examples/
+│       └── 01-fomo-livestream-handdrawn.svg
 └── references/
     ├── brand-dna.md
     ├── character-ip.md
@@ -72,11 +158,7 @@ yaya-surf-illustrations/
     └── qa-checklist.md
 ```
 
-## Notes
+## 说明
 
-- Keep Yaya functionally necessary in the image, not just posing.
-- Avoid generic beach posters and dense PPT diagrams.
-- Keep Chinese labels short.
-- Use the character reference for identity calibration, not exact pose copying.
-- This repository contains personal brand assets. No open-source license is granted unless a license file is added later.
+这个仓库包含个人品牌资产。除非之后补充 License 文件，否则默认不授予开源复用授权。
 
